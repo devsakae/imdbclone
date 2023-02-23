@@ -1,4 +1,4 @@
-// File: /Users/admin/Codes/imdbclone/src/app/page.js
+// File: /Users/admin/Codes/imdbclone/src/app/page.jsx
 import * as entry from '../../../src/app/page'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 

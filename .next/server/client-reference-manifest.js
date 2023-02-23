@@ -1,5 +1,31 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
@@ -111,8 +137,60 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_src_app_globals_css.css"
     ],
     "/Users/admin/Codes/imdbclone/src/app/page": [
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_page_js_import_Inter_argume-baa61f.css"
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_page_jsx_import_Inter_argum-b85015.css"
     ]
+  },
+  "/Users/admin/Codes/imdbclone/node_modules/next/dist/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/Users/admin/Codes/imdbclone/node_modules/next/dist/esm/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
   },
   "/Users/admin/Codes/imdbclone/node_modules/next/dist/client/components/app-router.js": {
     "": {
@@ -331,12 +409,12 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "/Users/admin/Codes/imdbclone/node_modules/next/font/google/target.css?{\"path\":\"src/app/page.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+  "/Users/admin/Codes/imdbclone/node_modules/next/font/google/target.css?{\"path\":\"src/app/page.jsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_page_js_import_Inter_argume-baa61f.css"
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_page_jsx_import_Inter_argum-b85015.css"
       ]
     }
   }
