@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFilm } from 'react-icons/bs';
 import { SlSocialTwitter } from 'react-icons/sl';
+import DarkModeSwitch from './DarkModeSwitch';
 import MenuItem from './MenuItem';
 
 export default function Header() {
@@ -12,7 +13,8 @@ export default function Header() {
         <MenuItem title={'TWITTER'} address={'http://twitter.com/Sakae'} Icon={ SlSocialTwitter } />
         <MenuItem title={'CONTACT'} address={'/contact'} Icon={ AiOutlineMail } />
       </div>
-      <div className=''>
+      <div className='flex items-center space-x-5'>
+        <DarkModeSwitch />
         <Link href="/">
           <h2 className='text-2xl'>
             <span className='font-bold text-2xl mx-1'>MY</span>
