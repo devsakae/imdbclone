@@ -1,11 +1,17 @@
-import { Inter } from 'next/font/google'
+const API_KEY = process.env.API_KEY;
 
-const inter = Inter({ subsets: ['latin'] })
+export default async function Home({ searchParams }) {
+  const genre = searchParams.genre || 'fetchTrending';
+  const res = await fetch(`https://api.themoviedb.org/3/${ genre === 'fetchTopRated' ? 'movie/top_rated' : 'trending/all/week' }?api_key=${API_KEY}&language=en-US&page=1`, {
+    next: { revalidate: 10000 }
+  });
+  if (!res.ok) throw new Error('Some error ocurred.');
+  const data = await res.json();
+  const results = data.results;  
 
-export default function Home() {
   return (
-   <>
-    <h1>Movies I liked</h1>
-   </>
+    <>
+      { results.map((r) => (<p>{ r.title }</p>)) }
+    </>
   )
 }

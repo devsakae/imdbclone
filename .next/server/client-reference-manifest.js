@@ -187,9 +187,6 @@ self.__RSC_MANIFEST={
   "__entry_css_files__": {
     "/Users/admin/Codes/imdbclone/src/app/layout": [
       "static/css/_app-client_src_app_globals_css.css"
-    ],
-    "/Users/admin/Codes/imdbclone/src/app/page": [
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_page_jsx_import_Inter_argum-b85015.css"
     ]
   },
   "/Users/admin/Codes/imdbclone/node_modules/next/dist/client/link.js": {
@@ -510,15 +507,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "static/css/_app-client_src_app_globals_css.css"
-      ]
-    }
-  },
-  "/Users/admin/Codes/imdbclone/node_modules/next/font/google/target.css?{\"path\":\"src/app/page.jsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_page_jsx_import_Inter_argum-b85015.css"
       ]
     }
   }
