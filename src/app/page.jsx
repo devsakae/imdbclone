@@ -1,3 +1,6 @@
+import Results from "@/components/Results";
+import Loading from "./loading";
+
 const API_KEY = process.env.API_KEY;
 
 export default async function Home({ searchParams }) {
@@ -7,11 +10,11 @@ export default async function Home({ searchParams }) {
   });
   if (!res.ok) throw new Error('Some error ocurred.');
   const data = await res.json();
-  const results = data.results;  
+  const results = data.results;
 
   return (
-    <>
-      { results.map((r) => (<p>{ r.title }</p>)) }
-    </>
+    <div>
+      { results.length < 1 ? <Loading /> : (<Results results={ results } />) }
+    </div>
   )
 }
