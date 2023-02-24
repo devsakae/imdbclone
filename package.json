@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.2",
-    "line-clamp": "^1.0.0",
     "next": "13.2.0",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
