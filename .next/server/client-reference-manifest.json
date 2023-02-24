@@ -78,6 +78,32 @@
         "async": false
       }
     },
+    "(app-client)/./src/components/NavBarItem.jsx": {
+      "": {
+        "id": "(sc_client)/./src/components/NavBarItem.jsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/components/NavBarItem.jsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/NavBarItem.jsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
@@ -286,6 +312,32 @@
     },
     "default": {
       "id": "(app-client)/./src/components/DarkModeSwitch.jsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/Users/admin/Codes/imdbclone/src/components/NavBarItem.jsx": {
+    "": {
+      "id": "(app-client)/./src/components/NavBarItem.jsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/components/NavBarItem.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/components/NavBarItem.jsx",
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
