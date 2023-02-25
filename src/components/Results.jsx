@@ -6,7 +6,7 @@ import MoviesCard from "./MoviesCard";
 import MoviesList from "./MoviesList";
 
 export default function Results({ results }) {
-  const [list, setList] = useState(true);
+  const [list, setList] = useState(false);
 
   return (
     <div className="mx-6">
