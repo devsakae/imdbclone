@@ -8,7 +8,7 @@ export default function MoviesCard({ movie }) {
     <div
       className="cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200 group"
       style={{
-        maxWidth: "300px",
+        maxWidth: "400px",
         height: "auto",
       }}>
       <Link
@@ -17,8 +17,8 @@ export default function MoviesCard({ movie }) {
       >
       <Image
         src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path || poster_path}`}
-        width={300}
-        height={150}
+        width={400}
+        height={300}
         placeholder='blur'
         blurDataURL='/loading.svg'
         alt='Image not available'

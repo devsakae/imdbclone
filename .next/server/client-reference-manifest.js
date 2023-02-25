@@ -5,7 +5,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -13,38 +13,12 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       },
       "default": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Results.jsx": {
-      "": {
-        "id": "(sc_client)/./src/components/Results.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/components/Results.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Results.jsx",
         "name": "default",
         "chunks": [
           "app/page:app/page"
@@ -130,32 +104,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/components/Search.jsx": {
-      "": {
-        "id": "(sc_client)/./src/components/Search.jsx",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/components/Search.jsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Search.jsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/error.jsx": {
       "": {
         "id": "(sc_client)/./src/app/error.jsx",
@@ -178,6 +126,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/error:app/error"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Results.jsx": {
+      "": {
+        "id": "(sc_client)/./src/components/Results.jsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/components/Results.jsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Results.jsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -298,7 +272,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -306,7 +280,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -314,7 +288,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -324,7 +298,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -332,38 +306,12 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
     "default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/Users/admin/Codes/imdbclone/src/components/Results.jsx": {
-    "": {
-      "id": "(app-client)/./src/components/Results.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/components/Results.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/components/Results.jsx",
       "name": "default",
       "chunks": [
         "app/page:app/page"
@@ -449,32 +397,6 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/admin/Codes/imdbclone/src/components/Search.jsx": {
-    "": {
-      "id": "(app-client)/./src/components/Search.jsx",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/components/Search.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/components/Search.jsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
   "/Users/admin/Codes/imdbclone/src/app/error.jsx": {
     "": {
       "id": "(app-client)/./src/app/error.jsx",
@@ -497,6 +419,32 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/error:app/error"
+      ],
+      "async": false
+    }
+  },
+  "/Users/admin/Codes/imdbclone/src/components/Results.jsx": {
+    "": {
+      "id": "(app-client)/./src/components/Results.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/components/Results.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/components/Results.jsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
       ],
       "async": false
     }

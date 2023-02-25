@@ -16,8 +16,8 @@ export default function Header() {
         <DarkModeSwitch />
         <Link href="/">
           <h2 className='text-2xl'>
-            <span className='font-bold text-2xl mx-1'>MY</span>
-            <span className='font-bold bg-amber-500 py-1 px-2 rounded-lg'>MOVIES</span>
+            <span className='font-bold text-2xl mx-1'>DS</span>
+            <span className='font-bold bg-amber-500 py-1 px-2 rounded-lg'>MD</span>
           </h2>
         </Link>
       </div>
