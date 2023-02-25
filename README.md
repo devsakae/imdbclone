@@ -1,38 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# DSMD (DevSakae Movie DB)
 
-First, run the development server:
+Um site/aplicativo que busca filmes no themoviedatabase.org, baseado no IMDB.
 
+<img src="https://github.com/devsakae/imdbclone/blob/main/public/all-devices-black.png" alt="Imagem do sistema funcionando" />
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](http://portfolio.sakae.social)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/rodrigosakae)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Sakae)
+
+
+## Instruções de utilização
+
+1. Clone o projeto
+
+- Usando [Github-Cli](https://cli.github.com/):
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  gh repo clone devsakae/imdbclone
+```
+- Usando SSH:
+```bash
+  git clone git@github.com:devsakae/imdbclone.git
+```
+Após isso, acesse a pasta do projeto:
+```bash
+  cd imdbclone
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências
+```bash
+  npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Inicie o sistema
+```bash
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+O projeto está preparado para rodar na portão 3000 (padrão) http://localhost:3000
+## Stacks utilizadas
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+NextJs, TailwindCSS + plugin line-clamp.
+## Licença
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
