@@ -494,20 +494,23 @@ video {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
 .mb-4 {
   margin-bottom: 1rem;
 }
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mt-2 {
+  margin-top: 0.5rem;
+}
 .mt-8 {
   margin-top: 2rem;
 }
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
 }
 .flex {
   display: flex;
@@ -536,6 +539,11 @@ video {
 }
 .flex-1 {
   flex: 1 1 0%;
+}
+.border-spacing-2 {
+  --tw-border-spacing-x: 0.5rem;
+  --tw-border-spacing-y: 0.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 .cursor-pointer {
   cursor: pointer;
@@ -572,6 +580,9 @@ video {
 .gap-4 {
   gap: 1rem;
 }
+.gap-1 {
+  gap: 0.25rem;
+}
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
@@ -598,6 +609,26 @@ video {
 }
 .rounded-sm {
   border-radius: 0.125rem;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+.border-solid {
+  border-style: solid;
+}
+.border-red-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+}
+.border-amber-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(217 119 6 / var(--tw-border-opacity));
 }
 .bg-amber-200 {
   --tw-bg-opacity: 1;
@@ -651,24 +682,16 @@ video {
 .text-center {
   text-align: center;
 }
-.align-baseline {
-  vertical-align: baseline;
-}
-.align-top {
-  vertical-align: top;
-}
 .align-middle {
   vertical-align: middle;
-}
-.align-bottom {
-  vertical-align: bottom;
-}
-.align-text-bottom {
-  vertical-align: text-bottom;
 }
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -681,10 +704,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 .font-bold {
   font-weight: 700;
@@ -716,8 +735,14 @@ video {
 .decoration-4 {
   text-decoration-thickness: 4px;
 }
+.decoration-2 {
+  text-decoration-thickness: 2px;
+}
 .underline-offset-8 {
   text-underline-offset: 8px;
+}
+.underline-offset-2 {
+  text-underline-offset: 2px;
 }
 .outline-none {
   outline: 2px solid transparent;
