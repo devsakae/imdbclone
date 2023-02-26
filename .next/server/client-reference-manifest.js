@@ -1,5 +1,31 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
@@ -130,32 +156,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/components/Results.jsx": {
-      "": {
-        "id": "(sc_client)/./src/components/Results.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/components/Results.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Results.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
@@ -259,6 +259,32 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/components/Results.jsx": {
+      "": {
+        "id": "(sc_client)/./src/components/Results.jsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/components/Results.jsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Results.jsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -266,6 +292,58 @@ self.__RSC_MANIFEST={
     "/Users/admin/Codes/imdbclone/src/app/layout": [
       "static/css/_app-client_src_app_globals_css.css"
     ]
+  },
+  "/Users/admin/Codes/imdbclone/node_modules/next/dist/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/admin/Codes/imdbclone/node_modules/next/dist/esm/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
   },
   "/Users/admin/Codes/imdbclone/node_modules/next/dist/client/link.js": {
     "": {
@@ -419,32 +497,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/error:app/error"
-      ],
-      "async": false
-    }
-  },
-  "/Users/admin/Codes/imdbclone/src/components/Results.jsx": {
-    "": {
-      "id": "(app-client)/./src/components/Results.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/components/Results.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/components/Results.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
       ],
       "async": false
     }
@@ -653,6 +705,32 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/admin/Codes/imdbclone/src/components/Results.jsx": {
+    "": {
+      "id": "(app-client)/./src/components/Results.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/components/Results.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/components/Results.jsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
       ],
       "async": false
     }
